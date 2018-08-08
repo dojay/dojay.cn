@@ -1,0 +1,24 @@
+{
+  "name": "dojay",
+  "version": "1.0.0",
+  "description": "老王博客",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev docs",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.coding.net:dojay/dojay.git"
+  },
+  "keywords": [
+    "vuePress"
+  ],
+  "author": "wdojay@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "^0.13.1",
+    "vuepress-theme-yubisaki": "^1.2.0"
+  }
+}
