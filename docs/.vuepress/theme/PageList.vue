@@ -1,7 +1,7 @@
 <template>
   <div class="d-page">
     <div class="d-page-left">
-      <div class="item-list-box" v-if="list !== null">
+      <div class="item-list-box" v-if="list.length > 0">
         <div
           class="item-list"
           v-for="(item, index) in list"
@@ -28,6 +28,7 @@
       </div>
       <div class="no-list" v-else>
         暂未更新，快催老王去...
+        <a href="mailto:wdojay@163.com">点我发邮件</a>
       </div>
     </div>
     <page-right></page-right>
@@ -42,7 +43,6 @@
       return {
         pageNo: 1,
         pageSize: 2,
-        list: [],
         currentLen: 0
       }
     },
@@ -58,12 +58,20 @@
 
       totalSize () {
         return this.items && this.items.length || 0
-      }
-    },
+      },
 
-    mounted() {
-      this.list = this.formatData(this.items.slice(0,10))
-      this.currentLen = this.list.length
+      list: {
+        get() {
+          if (this.items === null) {
+            return []
+          }
+          const data = this.formatData(this.items.slice(0,10))
+          this.currentLen = data.length
+          return data
+        },
+
+        set() {}
+      }
     },
 
     methods: {
