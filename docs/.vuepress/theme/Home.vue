@@ -35,11 +35,8 @@ export default {
 </script>
 
 <style lang="stylus">
-@import './styles/config.styl'
-
 .home
   height 100vh
-  width 100vw
   background #f8f8f8
   display flex
   justify-content center
@@ -68,33 +65,4 @@ export default {
       padding: .6rem 1rem;
       margin: .5rem 1rem;
       border-radius: 1.5rem;
-
-@media (max-width: $MQMobile)
-  .home
-    .features
-      flex-direction column
-    .feature
-      max-width 100%
-      padding 0 2.5rem
-
-@media (max-width: $MQMobileNarrow)
-  .home
-    padding-left 1.5rem
-    padding-right 1.5rem
-    .hero
-      img
-        max-height 210px
-        margin 2rem auto 1.2rem
-      h1
-        font-size 2rem
-      h1, .description, .action
-        margin 1.2rem auto
-      .description
-        font-size 1.2rem
-      .action-button
-        font-size 1rem
-        padding 0.6rem 1.2rem
-    .feature
-      h2
-        font-size 1.25rem
 </style>

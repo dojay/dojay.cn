@@ -107,84 +107,93 @@
 </script>
 
 <style lang="stylus">
-  @media screen and (min-width: 600px) {
-    .d-page {
-      width 960px
-      min-height 80vh
-      margin: 20px auto
-      overflow hidden
-      .d-page-left{
-        width 70%
-        float left
-        .item-list-box{
-          width 100%
-        }
-        .item-list {
-          background #fff
-          border-radius 2px
-          border-bottom 1px solid #eee
-          padding 20px
-          &:hover{
-            background #e9f2f7
-            cursor pointer
-          }
-          &:hover .item-list-title{
-            color #20a0ff
-          }
-          .item-list-title{
-            font-size 18px
-            font-weight bold
-            margin-bottom 10px
-            color #333333
-          }
-          .item-list-content{
-            width: 100%;
-            font-size: 14px;
-            color: #707780;
-            line-height: 1.5;
-            // letter-spacing: 2px;
-            margin-bottom 10px
-          }
-          .item-list-foot{
-            margin-bottom 10px
-            overflow hidden
-            .date{
-              float right 
-              font-size 12px
-              color #bbbbbb
-            }
-            .tags{
-              float left
-              .tag{
-                float left
-                margin-right 6px
-                border-radius 2px
-                padding 0 8px
-                font-size 12px
-                color #20a0ff
-                border 1px solid #20a0ff
-              }
-            }
-          }
-        }
-        .get-more{
-          width 100%
-          height 40px
-          line-height 40px
-          text-align center
-          color #6a8bad
-          background #fff
-          margin-top 20px
+  @import './styles/config.styl'
+
+  .d-page {
+    width 960px
+    min-height 80vh
+    margin: 20px auto
+    overflow hidden
+    .d-page-left{
+      width 70%
+      float left
+      .item-list-box{
+        width 100%
+      }
+      .item-list {
+        background #fff
+        border-radius 2px
+        border-bottom 1px solid #eee
+        padding 20px
+        &:hover{
+          background #e9f2f7
           cursor pointer
         }
+        &:hover .item-list-title{
+          color #20a0ff
+        }
+        .item-list-title{
+          font-size 18px
+          font-weight bold
+          margin-bottom 10px
+          color #333333
+        }
+        .item-list-content{
+          width: 100%;
+          font-size: 14px;
+          color: #707780;
+          line-height: 1.5;
+          // letter-spacing: 2px;
+          margin-bottom 10px
+        }
+        .item-list-foot{
+          margin-bottom 10px
+          overflow hidden
+          .date{
+            float right 
+            font-size 12px
+            color #bbbbbb
+          }
+          .tags{
+            float left
+            .tag{
+              float left
+              margin-right 6px
+              border-radius 2px
+              padding 0 8px
+              font-size 12px
+              color #20a0ff
+              border 1px solid #20a0ff
+            }
+          }
+        }
       }
-      .no-list{
+      .get-more{
         width 100%
-        background #fff
-        min-height 70vh
-        line-height 70vh
+        height 40px
+        line-height 40px
         text-align center
         color #6a8bad
+        background #fff
+        margin-top 20px
+        cursor pointer
+      }
+    }
+    .no-list{
+      width 100%
+      background #fff
+      min-height 70vh
+      line-height 70vh
+      text-align center
+      color #6a8bad
+    }
+  }
+  @media screen and (max-width: $MQMobile) {
+    .d-page {
+      width 100%
+      margin: 10px auto
+      .d-page-left{
+        width 100%
       }
     }
   }

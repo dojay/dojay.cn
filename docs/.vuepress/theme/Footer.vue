@@ -5,6 +5,7 @@
 </template>
 
 <style lang="stylus">
+  @import './styles/config.styl'
   .d-footer{
     width 100%
     margin 40px auto 0
@@ -17,6 +18,18 @@
     a{
       color #999
       font-weight normal
+    }
+  }
+  @media screen and (max-width: $MQMobile){
+    .d-footer{
+      width 100%
+      margin 20px auto 0
+      height 40px
+      border-top 1px solid #eaecef
+      text-align center
+      line-height 40px
+      background #fff
+      color #999
     }
   }
 </style>

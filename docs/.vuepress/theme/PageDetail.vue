@@ -29,8 +29,9 @@
   }
 </script>
 
-
 <style lang="stylus">
+  @import './styles/config.styl'
+
   .page-detail{
     .container{
       overflow hidden
@@ -48,6 +49,20 @@
         font-weight bold
         padding 20px
         border-bottom: 1px solid #eaecef;
+      }
+    }
+  }
+
+  @media screen and (max-width: $MQMobile) {
+    .page-detail{
+      .container{
+        overflow hidden
+        width 100%
+        margin 60px auto 0
+      }
+      .page-detail-content{
+        width 100%
+        float none
       }
     }
   }

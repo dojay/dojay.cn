@@ -5,6 +5,7 @@
 </template>
 
 <style lang="stylus">
+  @import './styles/config.styl'
   .d-page-right{
     height 300px
     width 28%
@@ -15,6 +16,11 @@
     color #cccccc
     line-height 300px
     text-align center
+  }
+  @media screen and (max-width: $MQMobile) {
+    .d-page-right{
+      display none
+    }
   }
 </style>
 
