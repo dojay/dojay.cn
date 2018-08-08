@@ -65,4 +65,5 @@ export default {
       padding: .6rem 1rem;
       margin: .5rem 1rem;
       border-radius: 1.5rem;
+      text-align center
 </style>
