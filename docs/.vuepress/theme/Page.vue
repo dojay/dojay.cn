@@ -5,7 +5,7 @@
   >
     <slot name="top"/>
 
-    <Content v-if="$page.frontmatter.customerLayoutList" :custom="false"/>
+    <Content v-if="!$page.frontmatter.customerLayoutList" :custom="false"/>
     <page-detail v-else></page-detail>
 
     <div class="page-edit" v-if="$page.frontmatter.customerLayoutList">
@@ -67,7 +67,8 @@
     class="custom-layout"
     v-else
   >
-    <item-list></item-list>
+    <page-resource v-if="$page.frontmatter.customerLayoutResource"></page-resource>
+    <item-list v-else></item-list>
     <Footer></Footer>
   </div>
 </template>
@@ -76,6 +77,7 @@
 import { resolvePage, normalize, outboundRE, endingSlashRE } from './util'
 import ItemList from './PageList'
 import PageDetail from './PageDetail'
+import PageResource from './PageResource'
 import Footer from './Footer'
 
 export default {
@@ -84,7 +86,8 @@ export default {
   components: {
     ItemList,
     PageDetail,
-    Footer
+    Footer,
+    PageResource
   },
 
   computed: {

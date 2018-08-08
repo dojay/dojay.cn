@@ -1,5 +1,5 @@
 ---
-customerLayoutList: false
+customerLayoutList: true
 title: Mac终端操作Linux服务器的一些常用命令
 ---
 

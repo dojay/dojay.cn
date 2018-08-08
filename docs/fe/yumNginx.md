@@ -1,5 +1,5 @@
 ---
-customerLayoutList: false
+customerLayoutList: true
 title: CentOS 7 yum 安装 Nginx
 ---
 
