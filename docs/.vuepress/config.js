@@ -6,7 +6,8 @@ module.exports = {
     lineNumbers: true
   },
   head: [
-    ['link', { rel: 'icon', type: "image/png", href: '/favicon.png' }]
+    ['link', { rel: 'icon', type: "image/png", href: '/favicon.png' }],
+    ['meta', { name: 'baidu-site-verification', content: 'TSXvc1KyeR' }]
     // ['link', { rel: 'manifest', href: '/manifest.json' }],
     // ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     // ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
