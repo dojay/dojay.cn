@@ -130,6 +130,9 @@
             .right{
               float left
               margin-left 10px
+              .des{
+                width 100%
+              }
             }
           }
         }

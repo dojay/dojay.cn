@@ -1,6 +1,6 @@
 module.exports = {
-  title: '隔壁老王的博客', // 网站title
-  description: '隔壁老王的博客,前端笔记,隔壁老王,老王笔记,前端,笔记', // 网站描述seo
+  title: '隔壁老王的随笔', // 网站title
+  description: '隔壁老王的随笔,前端笔记,隔壁老王,老王笔记,前端,笔记', // 网站描述seo
   // theme: 'yubisaki',
   markdown: {
     lineNumbers: true
