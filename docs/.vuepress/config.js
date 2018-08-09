@@ -17,7 +17,7 @@ module.exports = {
     // ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   themeConfig: {
-    search: false,
+    search: true,
     logo: '/logo.png',
     nav: [
       {
