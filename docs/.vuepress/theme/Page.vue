@@ -5,7 +5,7 @@
   >
     <slot name="top"/>
 
-    <Content v-if="!$page.frontmatter.customerLayoutList" :custom="false"/>
+    <Content v-if="$page.frontmatter.customerLayoutList" :custom="false"/>
     <page-detail v-else></page-detail>
 
     <div class="page-edit" v-if="$page.frontmatter.customerLayoutList">

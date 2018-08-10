@@ -5,7 +5,7 @@
 </template>
 
 <style lang="stylus">
-  @import './styles/config.styl'
+  @import '../theme/styles/config.styl'
   .d-footer{
     width 100%
     margin 40px auto 0
