@@ -22,6 +22,18 @@ sudo systemctl start nginx.service
 ``` bash
 sudo systemctl enable nginx.service
 ```
+> 杀死nginx
+``` bash
+killall -9 nginx
+```
+> 启动nginx
+``` bash
+nginx -c nginx.conf
+```
+> 查看是否启动
+``` bash
+ps aux|grep nginx
+```
 
 > 如果一切进展顺利的话，现在你可以通过你的域名或IP来访问你的Web页面来预览一下Nginx的默认页面。
 > 如果看到这个页面,那么说明你的CentOS 7 中 web服务器已经正确安装。
