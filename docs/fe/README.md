@@ -3,6 +3,11 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
+  - title: adb常用操作命令
+    description: 这两天在开发硬件产品，需要用到adb命令，记录下
+    link: adb
+    date: 2018-08-08
+    tags: adb
   - title: CentOS 7 yum 安装 Nginx
     description: 这两天在折腾服务器的东西，记录一下nginx的安装过程
     link: yumNginx
