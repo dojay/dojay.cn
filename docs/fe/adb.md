@@ -4,7 +4,10 @@ title: adb常用操作命令
 ---
 
 ### adb常用操作命令
-
+> 安装apk
+``` bash
+adb install /Desktop/xxx.apk
+```
 > 回到首页
 ``` bash
 adb shell input keyevent 3
