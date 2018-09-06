@@ -3,6 +3,11 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
+  - title: 平时收藏的一些技术网站网站
+    description: 平时收藏的一些技术网站网站
+    link: collection
+    date: 2018-09-06
+    tags: JavaScript
   - title: adb常用操作命令
     description: 这两天在开发硬件产品，需要用到adb命令，记录下
     link: adb
