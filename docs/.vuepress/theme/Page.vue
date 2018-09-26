@@ -8,7 +8,7 @@
     <Content v-if="!$page.frontmatter.customerLayoutList" :custom="false"/>
     <page-detail v-else></page-detail>
 
-    <div class="page-edit" v-if="$page.frontmatter.customerLayoutList">
+    <div class="page-edit" v-if="!$page.frontmatter.customerLayoutList">
       <div
         class="edit-link"
         v-if="editLink"
