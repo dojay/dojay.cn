@@ -1,6 +1,6 @@
 <template>
   <div class="d-footer">
-    Copyright © 2018 <a href="mailto:wdojay@gmail.com">隔壁老王</a>
+    ©2018 隔壁老王 冀ICP备16000662号-1 <a href="mailto:wdojay@gmail.com"></a>
   </div>
 </template>
 
