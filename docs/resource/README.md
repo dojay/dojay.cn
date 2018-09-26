@@ -75,6 +75,12 @@ items:
         icon: /resource/fe/stylus.png
         des: 富有表现力的、动态的、健壮的CSS
         links: https://www.zhangxinxu.com/jq/stylus/
+  - itemTitle: 微信小程序
+    itemContent:
+      - title: iView Weapp
+        icon: /resource/fe/iview.png
+        des: 一套高质量的微信小程序 UI 组件库
+        links: https://weapp.iviewui.com/
   - itemTitle: Node
     itemContent:
       - title: Node.js
