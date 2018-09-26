@@ -138,6 +138,7 @@ export default {
     })
 
     this.$on('sw-updated', this.onSWUpdated)
+    this.setScript()
   },
 
   methods: {
@@ -167,6 +168,12 @@ export default {
 
     onSWUpdated (e) {
       this.swUpdateEvent = e
+    },
+
+    setScript() {
+      const $script = document.createElement('script')
+      document.body.appendChild($script)
+      $script.src = 'https://s19.cnzz.com/z_stat.php?id=1274399628&web_id=1274399628'
     }
   }
 }
