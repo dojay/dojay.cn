@@ -3,6 +3,11 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
+  - title: 前端面试整理
+    description: 前端面试整理，需要的拿走不谢，后面继续整理中...
+    link: interview
+    date: 2018-09-26
+    tags: 前端面试
   - title: 平时收藏的一些技术网站网站
     description: 平时收藏的一些技术网站网站
     link: collection

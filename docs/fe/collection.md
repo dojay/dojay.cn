@@ -1,6 +1,6 @@
 ---
 customerLayoutList: true
-title: Mac下 VSCode 终端不能运行的问题
+title: 平时收藏的一些技术网站网站
 ---
 
 ### JavaScript相关
