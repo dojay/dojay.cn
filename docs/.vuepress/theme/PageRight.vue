@@ -19,7 +19,7 @@
   @import './styles/config.styl'
   .d-page-right{
     height 310px
-    width 28%
+    width 26%
     float left 
     margin-left 2%
     background #ffffff
