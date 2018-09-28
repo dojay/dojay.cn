@@ -68,6 +68,7 @@
     v-else
   >
     <page-resource v-if="$page.frontmatter.customerLayoutResource"></page-resource>
+    <page-friends v-else-if="$page.frontmatter.customerLayoutFriends"></page-friends>
     <item-list v-else></item-list>
     <Footer></Footer>
   </div>
@@ -78,6 +79,7 @@ import { resolvePage, normalize, outboundRE, endingSlashRE } from './util'
 import ItemList from './PageList'
 import PageDetail from './PageDetail'
 import PageResource from './PageResource'
+import PageFriends from './PageFriends'
 import Footer from './Footer'
 
 export default {
@@ -87,7 +89,8 @@ export default {
     ItemList,
     PageDetail,
     Footer,
-    PageResource
+    PageResource,
+    PageFriends
   },
 
   computed: {

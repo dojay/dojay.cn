@@ -33,6 +33,9 @@ module.exports = {
       }, {
         text: '发现生活',
         link: '/live/'
+      }, {
+        text: '友情链接',
+        link: '/friends/'
       }
     ]
   }

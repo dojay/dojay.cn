@@ -9,7 +9,7 @@
       <div class="info">昵称：隔壁老王</div>
       <div class="info">年龄：1991年</div>
       <div class="info">爱好：撸猫</div>
-      <div class="info">简介：一枚喜欢躺尸的web前端开发</div>
+      <div class="info">简介：一枚喜欢撸猫的web前端开发</div>
     </div>
     <!-- <a class="more-about" href="/about.html">更多</a> -->
   </div>
