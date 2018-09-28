@@ -189,27 +189,11 @@
     }
   }
   @media screen and (max-width $MQMobile){
-    .page-resource{
+    .page-friends{
       width 100%
-      min-height 80vh
-      margin: 20px auto
-      .item-list{
-        h3{
-          padding-left 10px
-        }
-        .item-box{
-          margin: 0 10px
-          .item{
-            width 100%
-            margin-right 0
-            .right{
-              float left
-              margin-left 10px
-              .des{
-                width 100%
-              }
-            }
-          }
+      .tips-title{
+        &:before,&:after{
+          display none
         }
       }
     }

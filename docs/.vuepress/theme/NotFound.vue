@@ -9,6 +9,7 @@
 </template>
 
 <style lang="stylus">
+@import './styles/config.styl'
 .page-404{
   width 100vw
   height 100vh
@@ -36,5 +37,17 @@
 }
 
 @media (max-width: $MQMobile)
-  .page-404{}
+  .page-404{
+    .tips{
+      font-size 16px
+    }
+    .back-home{
+      width 50%
+      height 40px
+      border-radius 20px
+      line-height 40px
+      font-size 18px
+      margin 20px auto
+    }
+  }
 </style>
