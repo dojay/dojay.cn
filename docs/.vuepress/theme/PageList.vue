@@ -115,7 +115,7 @@
     margin: 20px auto
     overflow hidden
     .d-page-left{
-      width 70%
+      width 72%
       float left
       .item-list-box{
         width 100%
