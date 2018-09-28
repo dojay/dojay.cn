@@ -2,7 +2,7 @@
 component: item-list
 customerLayout: true
 customerLayoutFriends: true
-conmment: true
+comment: true
 items:
   - title: finen
     icon: https://www.finen.top/logo.png
@@ -12,10 +12,14 @@ items:
     icon: https://static.gaozhe.top/images/favicon.ico
     des: 个人博客
     links: https://react.docschina.org/
+  - title: GodBMW
+    icon: https://cn.gravatar.com/avatar/b20750c40cd911256ddbd76a7f7e724c
+    des: 有干货 有态度 亦有你
+    links: https://godbmw.com
 ---
 
 ::: tip
  不积跬步无以至千里，不积小流无以成江海。
  
- 如果您需要添加友链，请联系邮箱: <dojaycn@163.com>，或者去github留言[dojay](https://github.com/dojay/dojay.cn)
+ 如果您需要添加友链，请在下方留言，或者发邮箱: <dojaycn@163.com>，或者去github留言[dojay](https://github.com/dojay/dojay.cn)
 :::
