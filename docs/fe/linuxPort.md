@@ -1,6 +1,7 @@
 ---
-customerLayoutList: true
 title: Mac终端操作Linux服务器的一些常用命令
+conmment: true
+customerLayoutList: true
 ---
 
 > 记录一下

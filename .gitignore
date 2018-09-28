@@ -13,3 +13,5 @@ yarn-error.log*
 *.sln
 
 publish.sh
+
+/docs/.vuepress/theme/Comments.vue

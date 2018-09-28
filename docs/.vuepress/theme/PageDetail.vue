@@ -14,6 +14,7 @@
 <script>
   import PageRight from './PageRight.vue'
   import Footer from './Footer'
+  import Comments from './Comments.vue'
 
   export default {
     computed: {

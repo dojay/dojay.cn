@@ -1,6 +1,7 @@
 ---
-customerLayoutList: true
 title: CentOS 7 yum 安装 Nginx
+conmment: true
+customerLayoutList: true
 ---
 
 #### 1.添加CentOS 7 Nginx yum资源库,打开终端,使用以下命令:

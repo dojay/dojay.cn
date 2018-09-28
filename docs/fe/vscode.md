@@ -1,6 +1,7 @@
 ---
-customerLayoutList: true
 title: Mac下 VSCode 终端不能运行的问题
+conmment: true
+customerLayoutList: true
 ---
 
 #### 问题

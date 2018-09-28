@@ -1,6 +1,7 @@
 ---
-customerLayoutList: true
 title: adb常用操作命令
+conmment: true
+customerLayoutList: true
 ---
 
 ### adb常用操作命令
