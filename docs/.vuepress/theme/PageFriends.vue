@@ -18,17 +18,12 @@
         </div>
       </a>
     </div>
-    <Comments></Comments>
   </div>
 </template>
 
 <script>
-  import Comments from './Comments.vue'
 
   export default {
-    components: {
-      Comments
-    },
     computed: {
       list() {
         return this.$page.frontmatter.items
