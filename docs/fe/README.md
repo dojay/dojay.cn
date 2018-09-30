@@ -3,6 +3,21 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
+  # - title: 深入理解javascript原型和闭包（3）——prototype原型
+  #   description: 如果你还不理解什么是原型的话，请进来吧，你会有收获的
+  #   link: js3
+  #   date: 2018-09-30
+  #   tags: JavaScript
+  - title: 深入理解javascript原型和闭包（2）—— 函数和对象的关系
+    description: 如果你还不理解什么是原型的话，请进来吧，你会有收获的
+    link: js2
+    date: 2018-09-30
+    tags: JavaScript
+  - title: 深入理解javascript原型和闭包（1）—— 一切都是对象
+    description: 如果你还不理解什么是原型的话，请进来吧，你会有收获的
+    link: js1
+    date: 2018-09-30
+    tags: JavaScript
   - title: 前端面试整理
     description: 前端面试整理，需要的拿走不谢，后面继续整理中...
     link: interview
