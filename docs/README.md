@@ -9,4 +9,7 @@ features:
 - title: Github
   links: https://github.com/dojay
   target: true
+- title: 个人简历
+  links: /about/
+  target: true
 ---

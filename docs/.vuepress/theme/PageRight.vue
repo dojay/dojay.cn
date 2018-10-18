@@ -11,9 +11,9 @@
         <div class="info">爱好：撸猫</div>
         <div class="info">简介：一枚喜欢撸猫的web前端开发</div>
       </div>
+      <a class="more-about" href="/about/">更多</a>
     </div>
     <hot-article></hot-article>
-    <!-- <a class="more-about" href="/about.html">更多</a> -->
   </div>
 </template>
 
@@ -30,14 +30,13 @@
 <style lang="stylus">
   @import './styles/config.styl'
   .d-page-right{
-    height 280px
     width 26%
     float left 
     margin-left 2%
-    background #ffffff
     border-radius 2px
     text-align left
     .about-me{
+      background #ffffff
       .title{
         font-size 16px
         padding 10px 16px
@@ -56,10 +55,13 @@
         margin 10px 20px
       }
       .more-about{
-        float right 
+        text-align center
+        height 30px
+        line-height 30px
+        border-top 1px solid #eeeeee 
+        width 100%
         font-size 12px
         display inline-block
-        margin-right 20px
       }
     }
   }

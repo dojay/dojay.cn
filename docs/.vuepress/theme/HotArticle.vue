@@ -36,7 +36,6 @@
 <style lang="stylus">
   @import './styles/config.styl'
   .hot-article{
-    height 280px
     background #ffffff
     border-radius 2px
     text-align left
