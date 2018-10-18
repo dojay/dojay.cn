@@ -58,3 +58,5 @@ customerLayoutList: true
 现在是不是糊涂了——对象是函数创建的，而函数却又是一种对象——天哪！函数和对象到底是什么关系啊？
 
 别着急！揭开这个谜底，还得先去了解一下另一位老朋友——prototype原型。
+
+[原文戳这里](https://www.cnblogs.com/wangfupeng1988/p/3978035.html)

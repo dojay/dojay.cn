@@ -3,19 +3,9 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
-  # - title: 深入理解javascript原型和闭包（3）——prototype原型
-  #   description: 如果你还不理解什么是原型的话，请进来吧，你会有收获的
-  #   link: js3
-  #   date: 2018-09-30
-  #   tags: JavaScript
-  - title: 深入理解javascript原型和闭包（2）—— 函数和对象的关系
-    description: 如果你还不理解什么是原型的话，请进来吧，你会有收获的
-    link: js2
-    date: 2018-09-30
-    tags: JavaScript
-  - title: 深入理解javascript原型和闭包（1）—— 一切都是对象
-    description: 如果你还不理解什么是原型的话，请进来吧，你会有收获的
-    link: js1
+  - title: 深入理解javascript原型和闭包系列
+    description: 这一系列的文章是偶然间一个同事推荐给我的，之前一直对原型这个东西是一个模模糊糊的概念，直到看到这一系列的文章，我感觉自己收获颇丰，所以收藏下来，感兴趣的小伙伴可以进来看看。
+    link: yuanxing
     date: 2018-09-30
     tags: JavaScript
   - title: 前端面试整理
