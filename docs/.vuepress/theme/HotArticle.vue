@@ -39,7 +39,8 @@
     background #ffffff
     border-radius 2px
     text-align left
-    margin-top 30px
+    margin-top 20px
+    padding-bottom 10px
     .title{
       font-size 16px
       padding 10px 16px

@@ -3,6 +3,11 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
+  - title: 从命令行启动Xcode模拟器
+    description: 从命令行启动Xcode模拟器
+    link: cmdxcode
+    date: 2019-01-16
+    tags: xcode
   - title: 深入理解javascript原型和闭包系列
     description: 这一系列的文章是偶然间一个同事推荐给我的，之前一直对原型这个东西是一个模模糊糊的概念，直到看到这一系列的文章，我感觉自己收获颇丰，所以收藏下来，感兴趣的小伙伴可以进来看看。
     link: yuanxing

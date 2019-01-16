@@ -16,6 +16,10 @@ items:
     icon: https://cn.gravatar.com/avatar/b20750c40cd911256ddbd76a7f7e724c
     des: 有干货 有态度 亦有你
     links: https://godbmw.com
+  - title: 冰水鉴心的博客
+    icon: https://xq773939719.github.io/images/favicon-32x32-next.png?v=5.1.4
+    des: 软工渣.编程痴.开发宅.系统迷.强迫症.
+    links: https://xq773939719.github.io/
 ---
 
 ::: tip
