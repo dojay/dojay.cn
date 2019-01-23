@@ -11,7 +11,7 @@ items:
   - title: 嘉美伯爵
     icon: https://static.gaozhe.top/images/favicon.ico
     des: 个人博客
-    links: https://react.docschina.org/
+    links: https://blog.gaozhe.top/
   - title: GodBMW
     icon: https://cn.gravatar.com/avatar/b20750c40cd911256ddbd76a7f7e724c
     des: 有干货 有态度 亦有你
@@ -20,6 +20,10 @@ items:
     icon: https://xq773939719.github.io/images/favicon-32x32-next.png?v=5.1.4
     des: 软工渣.编程痴.开发宅.系统迷.强迫症.
     links: https://xq773939719.github.io/
+  - title: LUYMM
+    icon: https://i.loli.net/2018/12/06/5c08849d3cbdc.jpg
+    des: 合抱之木 生于毫末
+    links: https://luymm.com
 ---
 
 ::: tip

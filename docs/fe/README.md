@@ -3,6 +3,11 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
+  - title: JavaScript排序
+    description: 每次面试的时候，都需要补充一下的知识点。之所以补充，还是自己没有掌握到位吧，特此记录一下。
+    link: sort
+    date: 2019-01-17
+    tags: JavaScript
   - title: 从命令行启动Xcode模拟器
     description: 从命令行启动Xcode模拟器
     link: cmdxcode
