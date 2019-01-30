@@ -31,9 +31,6 @@ module.exports = {
         text: '前端资源',
         link: '/resource/'
       }, {
-        text: '发现生活',
-        link: '/live/'
-      }, {
         text: '友情链接',
         link: '/friends/'
       }

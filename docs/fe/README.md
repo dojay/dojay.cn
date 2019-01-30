@@ -3,6 +3,11 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
+  - title: brew install xxx的时候卡在Updating Homebrew
+    description: brew install xxx的时候卡在Updating Homebrew的问题。
+    link: brewinstallproblem
+    date: 2019-01-30
+    tags: homebrew
   - title: JavaScript排序
     description: 每次面试的时候，都需要补充一下的知识点。之所以补充，还是自己没有掌握到位吧，特此记录一下。
     link: sort
