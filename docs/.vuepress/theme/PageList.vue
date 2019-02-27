@@ -43,7 +43,8 @@
       return {
         pageNo: 1,
         pageSize: 2,
-        currentLen: 0
+        currentLen: 0,
+        list: []
       }
     },
 
@@ -58,20 +59,16 @@
 
       totalSize () {
         return this.items && this.items.length || 0
-      },
-
-      list: {
-        get() {
-          if (this.items === null) {
-            return []
-          }
-          const data = this.formatData(this.items.slice(0,10))
-          this.currentLen = data.length
-          return data
-        },
-
-        set() {}
       }
+    },
+
+    beforeMount() {
+      if (this.items === null) {
+        this.list = []
+      }
+      const data = this.formatData(this.items.slice(0,10))
+      this.currentLen = data.length
+      this.list = data
     },
 
     methods: {
@@ -91,8 +88,8 @@
         const end = this.currentLen + 10
 
         listData.push(...this.items.slice(start, end))
-
         this.list = this.formatData(listData)
+        
         this.currentLen = listData.length
       },
 

@@ -3,6 +3,11 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
+  - title: call apply bind是干啥的，有啥区别
+    description: 之前一直对这三个方法是一个特别模糊的概念，今天来研究记录一下。
+    link: callapplybind
+    date: 2019-02-21
+    tags: JavaScript
   - title: brew install xxx的时候卡在Updating Homebrew
     description: brew install xxx的时候卡在Updating Homebrew的问题。
     link: brewinstallproblem
