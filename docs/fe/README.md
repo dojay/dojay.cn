@@ -3,6 +3,11 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
+  - title: js函数防抖和函数节流
+    description: js函数防抖和函数节流
+    link: debounce
+    date: 2019-02-28
+    tags: JavaScript
   - title: call apply bind是干啥的，有啥区别
     description: 之前一直对这三个方法是一个特别模糊的概念，今天来研究记录一下。
     link: callapplybind

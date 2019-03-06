@@ -11,7 +11,7 @@
         <div class="info">爱好：撸猫</div>
         <div class="info">简介：一枚喜欢撸猫的web前端开发</div>
       </div>
-      <a class="more-about" href="/about/">更多</a>
+      <!-- <a class="more-about" href="/about/">更多</a> -->
     </div>
     <hot-article></hot-article>
   </div>
