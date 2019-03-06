@@ -3,7 +3,7 @@
     <div class="about-me">
       <div class="title">关于作者</div>
       <div>
-        <img class="user-img" src="/user-img.png" />
+        <img class="user-img" src="/user-img.jpg" />
       </div>
       <div>
         <div class="info">姓名：王东杰</div>

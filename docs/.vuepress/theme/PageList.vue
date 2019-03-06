@@ -70,6 +70,7 @@
       const data = this.formatData(this.items.slice(0,10))
       this.currentLen = data.length
       this.list = data
+      console.log(this.list)
     },
 
     methods: {
