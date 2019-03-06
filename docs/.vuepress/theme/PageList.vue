@@ -63,6 +63,7 @@
     },
 
     beforeMount() {
+      console.log(this.items)
       if (this.items === null) {
         this.list = []
       }
