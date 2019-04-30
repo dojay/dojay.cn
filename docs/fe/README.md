@@ -3,6 +3,11 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
+  - title: Linux下安装node
+    description: Linux下安装node
+    link: linuxNode
+    date: 2019-04-30
+    tags: node
   - title: js函数防抖和函数节流
     description: js函数防抖和函数节流
     link: debounce
