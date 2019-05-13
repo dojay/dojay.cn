@@ -31,6 +31,9 @@ module.exports = {
         text: '前端资源',
         link: '/resource/'
       }, {
+        text: '微信小程序UI组件',
+        link: 'http://weapp.schoolbj.cn'
+      }, {
         text: '友情链接',
         link: '/friends/'
       }
