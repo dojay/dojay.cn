@@ -9,7 +9,7 @@ features:
 - title: Github
   links: https://github.com/dojay
   target: true
-- title: 个人简历
-  links: /about/
+- title: 微信小程序UI组件
+  links: http://weapp.schoolbj.cn/
   target: true
 ---
