@@ -3,6 +3,16 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
+  - title: HTTP 状态码
+    description: 根据《图解HTTP》中整理的状态码
+    link: httpcode
+    date: 2019-05-31
+    tags: HTTP
+  - title: null是一个基本数据类型，为何typeof null为Object
+    description: null是一个基本数据类型，为何typeof null为Object
+    link: null
+    date: 2019-05-29
+    tags: JavaScript
   - title: Linux下安装node
     description: Linux下安装node
     link: linuxNode
