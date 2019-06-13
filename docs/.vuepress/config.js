@@ -30,9 +30,6 @@ module.exports = {
       }, {
         text: '前端资源',
         link: '/resource/'
-      }, {
-        text: '友情链接',
-        link: '/friends/'
       }
     ]
   }
