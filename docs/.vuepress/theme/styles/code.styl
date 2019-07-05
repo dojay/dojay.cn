@@ -18,7 +18,7 @@
     border-radius 6px
     overflow auto
     code
-      color #fff
+      color #525252
       padding 0
       background-color transparent
       border-radius 0
@@ -65,7 +65,7 @@ div[class*="language-"]
           height 100%
           background-color rgba(0, 0, 0, 66%)
     pre
-      padding-left $lineNumbersWrapperWidth + 1 rem
+      padding-left 1 rem
       vertical-align middle
     .line-numbers-wrapper
       position absolute
@@ -75,6 +75,7 @@ div[class*="language-"]
       color rgba(255, 255, 255, 0.3)
       padding 1.25rem 0
       line-height 1.4
+      display: none
       br
         user-select none
       .line-number
@@ -93,9 +94,10 @@ div[class*="language-"]
       border-radius 6px 0 0 6px
       border-right 1px solid rgba(0, 0, 0, 66%)
       background-color $codeBgColor
+      display: none
 
 
-for lang in js ts html md vue css sass scss less stylus go java c sh yaml py
+for lang in $codeLang
   div{'[class~="language-' + lang + '"]'}
     &:before
       content ('' + lang)
@@ -127,3 +129,21 @@ div[class~="language-python"]:before
 
 div[class~="language-bash"]:before
   content "sh"
+
+
+
+// 重写markdown样式
+.token.property, .token.class-name, .token.constant, .token.symbol
+  color #42b983
+.token.punctuation
+  color #525252
+.token.string, .token.char, .token.regex, .token.variable
+  color #e96900
+.token.attr-value
+  color #42b983
+.token.attr-name, .token.namespace, .token.deleted
+  color #e96900
+.token.tag, .token.namespace, .token.deleted
+  color #3e76f6
+.token.tag .punctuation
+  color #3e76f6

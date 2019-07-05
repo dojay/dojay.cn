@@ -3,6 +3,21 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
+  - title: Vue组件之间的通讯
+    description: Vue组件之间的通讯
+    link: vueProps
+    date: 2019-07-05
+    tags: vue
+  # - title: 手写Promise
+  #   description: 手写Promise
+  #   link: promise
+  #   date: 2019-06-25
+  #   tags: JavaScript
+  - title: for in / for of 的区别
+    description: for in / for of 的区别
+    link: forinforof
+    date: 2019-06-21
+    tags: JavaScript
   - title: 发布订阅
     description: 什么是发布订阅
     link: publish
