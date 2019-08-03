@@ -3,16 +3,31 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
+  - title: JavaScript四则运算
+    description: JavaScript四则运算
+    link: sizeyunsuan
+    date: 2019-08-03
+    tags: JavaScript
+  # - title: 如何从0到1一个react项目
+  #   description: 如何从0到1一个react项目
+  #   link: startReactWeb
+  #   date: 2019-07-16
+  #   tags: React
+  - title: 深拷贝和浅拷贝
+    description: 深拷贝和浅拷贝
+    link: deepcopy
+    date: 2019-07-05
+    tags: JavaScript
   - title: Vue组件之间的通讯
     description: Vue组件之间的通讯
     link: vueProps
     date: 2019-07-05
     tags: vue
-  # - title: 手写Promise
-  #   description: 手写Promise
-  #   link: promise
-  #   date: 2019-06-25
-  #   tags: JavaScript
+  - title: 手写Promise
+    description: 手写Promise
+    link: promise
+    date: 2019-06-25
+    tags: JavaScript
   - title: for in / for of 的区别
     description: for in / for of 的区别
     link: forinforof
