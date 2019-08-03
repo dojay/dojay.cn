@@ -3,6 +3,11 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
+  - title: 前端模块化ES6、CommonJs、AMD、CMD
+    description: 前端模块化ES6、CommonJs、AMD、CMD
+    link: femodule
+    date: 2019-08-03
+    tags: JavaScript
   - title: JavaScript四则运算
     description: JavaScript四则运算
     link: sizeyunsuan
@@ -53,11 +58,6 @@ items:
     link: null
     date: 2019-05-29
     tags: JavaScript
-  - title: Linux下安装node
-    description: Linux下安装node
-    link: linuxNode
-    date: 2019-04-30
-    tags: node
   - title: js函数防抖和函数节流
     description: js函数防抖和函数节流
     link: debounce
@@ -103,6 +103,11 @@ items:
     link: adb
     date: 2018-08-20
     tags: adb
+  - title: Linux下安装node
+    description: Linux下安装node
+    link: linuxNode
+    date: 2018-09-01
+    tags: node
   - title: CentOS 7 yum 安装 Nginx
     description: 这两天在折腾服务器的东西，记录一下nginx的安装过程
     link: yumNginx
