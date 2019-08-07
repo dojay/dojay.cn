@@ -3,6 +3,16 @@ component: item-list
 customerLayout: true
 customerLayoutList: true
 items:
+  - title: Webpack的一些相关面试题
+    description: 想必大部分的前端开发在项目中都用到了webpack，也相信很多人在开发项目的过程当中是通过vue-cli或者createapp等脚手架生成的webpack，那么自己有尝试动手配置过吗？或者说了解一些他们的原理吗？为什么选择webpack等问题，那咱们就来捋一捋。
+    link: webpack
+    date: 2019-08-04
+    tags: Webpack
+  - title: js如何写一个控制并发请求数量通用方法
+    description: 在我们的项目中，经常会遇到页面加载需要请求很多接口的情况，比如，进入淘宝首页的时候，要请求商品列表，促销，活动，个人信息，推荐，等等。。。
+    link: requestControl
+    date: 2019-08-03
+    tags: JavaScript
   - title: 前端模块化ES6、CommonJs、AMD、CMD
     description: 前端模块化ES6、CommonJs、AMD、CMD
     link: femodule
@@ -39,7 +49,7 @@ items:
     date: 2019-06-21
     tags: JavaScript
   - title: 发布订阅
-    description: 什么是发布订阅
+    description: 什么是发布订阅，怎么实现
     link: publish
     date: 2019-06-12
     tags: JavaScript
@@ -54,12 +64,12 @@ items:
     date: 2019-05-31
     tags: HTTP
   - title: null是一个基本数据类型，为何typeof null为Object
-    description: null是一个基本数据类型，为何typeof null为Object
+    description: 因为“Object”在底层表示为二进制，在js中，二进制前三位为0的都会被判定为Object，null的二进制表示全是0，所以typeof null会被判断会Object。
     link: null
     date: 2019-05-29
     tags: JavaScript
   - title: js函数防抖和函数节流
-    description: js函数防抖和函数节流
+    description: 有一些浏览器事件可以在很短的时间内快速触发很多次，比如调整窗口大小或者滚动页面。例如，你监听浏览器的滚动事件而做一些事情，你的事件会在很短的时间内被触发很多很多次。这可能会给带来很严重的性能问题...
     link: debounce
     date: 2019-02-28
     tags: JavaScript
