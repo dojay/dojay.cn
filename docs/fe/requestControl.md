@@ -47,7 +47,7 @@ function RequestControl(requestUrls, max=5, cb) {
 
     this.currentReqNum++;
 
-    fetch(this.requestUrls.shift()).then(handle()).catch(handle());
+    fetch(this.requestUrls.shift()).then(handle.catch(handle);
 
     this.currentReqNum < this.max && request();
   }
