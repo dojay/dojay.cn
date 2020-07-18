@@ -10,6 +10,6 @@ features:
   links: https://github.com/dojay
   target: true
 - title: 微信小程序UI组件
-  links: http://weapp.schoolbj.cn/
+  links: http://weapp.dojay.cn/
   target: true
 ---

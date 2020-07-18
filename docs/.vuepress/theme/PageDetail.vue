@@ -3,7 +3,7 @@
     <div class="container">
       <div class="page-detail-content">
         <div class="title">{{title}}</div>
-        <Content />
+        <Content class="content" />
       </div>
       <page-right></page-right>
     </div>
@@ -52,6 +52,9 @@
         font-weight bold
         padding 20px
         border-bottom: 1px solid #eaecef;
+      }
+      .content{
+        padding: 0 20px;
       }
       .line{
         height 10px

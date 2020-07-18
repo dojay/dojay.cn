@@ -13,7 +13,7 @@
       </div>
       <!-- <a class="more-about" href="/about/">更多</a> -->
     </div>
-    <hot-article></hot-article>
+    <!-- <hot-article></hot-article> -->
   </div>
 </template>
 

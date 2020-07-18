@@ -44,13 +44,16 @@ HttpOnly：指定该 Cookie 无法通过 JavaScript 脚本拿到
 ### XSS CSRF 等前端安全问题
 
 ### 同源策略
-
 ### WebSocket
-
 ### CORS
-
 ### 时间复杂度
-
 ### js操作动画和css操作动画，哪个性能更好
-
+[CSS3动画和js动画各有什么优劣](https://segmentfault.com/q/1010000000645415)
+[CSS硬件加速](https://lz5z.com/Web%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-CSS3%E7%A1%AC%E4%BB%B6%E5%8A%A0%E9%80%9F/)
 ### 排序稳定性
+### Event Loop
+### 手写Promise
+### 如何实现一个Symbol
+### 伪元素和伪类的区别
+伪元素创建了一个文档树以外的元素，伪类操作的文档树种已经存在的元素。
+### vuex

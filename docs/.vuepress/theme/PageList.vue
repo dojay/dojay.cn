@@ -8,30 +8,12 @@
           :key="index"
           @click="handlerClick(item.link)"
         > 
-          <div class="item-list-foot">
-            <div class="tags">
-              <span class="tag">{{item.tags}}</span>
-            </div>
-            <div class="date">
-              {{ item.date }}
-            </div>
-          </div>
-          <div class="item-list-title">{{ item.title }}</div>
-          <div class="item-list-content">
-            <!-- <img v-if="item.img" :src="item.img" class="image"> -->
-            <div class="description">
-              {{ item.description }}
-            </div>
-          </div>
+          <div class="date">{{item.date}}</div>
+          <div class="title">{{ item.title }}</div>
         </div>
-        <div class="get-more" v-if="totalSize !== currentLen" @click="handleMore">查看更多</div>
-      </div>
-      <div class="no-list" v-else>
-        暂未更新，快催老王去...
-        <a href="mailto:wdojay@163.com">点我发邮件</a>
       </div>
     </div>
-    <page-right></page-right>
+    <!-- <page-right></page-right> -->
   </div>
 </template>
 
@@ -66,8 +48,7 @@
       if (this.items === null) {
         this.list = []
       }
-      const data = this.formatData(this.items.slice(0,10))
-      this.currentLen = data.length
+      const data = this.formatData(this.items)
       this.list = data
     },
 
@@ -107,82 +88,36 @@
   @import './styles/config.styl'
 
   .d-page {
-    width 960px
+    width 1024px
     min-height 80vh
     margin: 20px auto
     overflow hidden
     .d-page-left{
-      width 72%
+      width 100%
       float left
       .item-list-box{
         width 100%
+        background #ffffff
+        padding 15px
       }
       .item-list {
         background #fff
-        border-radius 2px
-        border-bottom 1px solid #eee
-        padding 20px
-        &:hover{
-          background #e9f2f7
+        padding 6px 0
+        display flex
+        align-items center
+        justify-content flex-start
+        .date {
+          color #333333
+          font-size 14px
+          margin-right 10px
+        }
+        .title{
+          font-size 14px
+          font-weight 400
+          color #0088CC
           cursor pointer
         }
-        &:hover .item-list-title{
-          color #20a0ff
-        }
-        .item-list-title{
-          font-size 18px
-          font-weight bold
-          margin-bottom 10px
-          color #333333
-        }
-        .item-list-content{
-          width: 100%;
-          font-size: 14px;
-          color: #707780;
-          line-height: 1.5;
-          // letter-spacing: 2px;
-          margin-bottom 10px
-        }
-        .item-list-foot{
-          margin-bottom 10px
-          overflow hidden
-          .date{
-            float right 
-            font-size 12px
-            color #bbbbbb
-          }
-          .tags{
-            float left
-            .tag{
-              float left
-              margin-right 6px
-              border-radius 2px
-              padding 0 8px
-              font-size 12px
-              color #20a0ff
-              border 1px solid #20a0ff
-            }
-          }
-        }
       }
-      .get-more{
-        width 100%
-        height 40px
-        line-height 40px
-        text-align center
-        color #6a8bad
-        background #fff
-        margin-top 20px
-        cursor pointer
-      }
-    }
-    .no-list{
-      width 100%
-      background #fff
-      min-height 70vh
-      line-height 70vh
-      text-align center
-      color #6a8bad
     }
   }
   @media screen and (max-width: $MQMobile) {
